@@ -1,0 +1,93 @@
+h1 {
+    color: red
+}
+
+#myh1 {
+    color: red
+}
+
+.item {
+    color: green
+}
+
+#superImage {
+    width: 200px;
+    height: 200px;
+}
+
+#superBouton {
+    background-color: burlywood;
+    color: red;
+    margin: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+#superBouton:hover {
+    color: black;
+    background-color: rgb(221, 163, 86);
+    cursor: pointer;
+    border-color: red
+}
+
+#spanHidden {
+    display: none;
+}
+
+#superBouton:hover > #spanHidden {
+    display: block;
+}
+
+p > span {
+    color: red;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+.container {
+    padding: 10px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 238, 238);
+    gap: 10px;
+    border-radius: 8px
+}
+
+.child1 {
+    padding: 10px;
+    background-color: lightcoral;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.child2 {
+    padding: 10px;
+    background-color: lightgreen;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.child3 {
+    padding: 10px;
+    background-color: lightblue;
+    width: 100px;
+    border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+    .child1 {
+        width: 50px;
+    }
+    .child2 {
+        width: 50px;
+    }
+    .child3 {
+        width: 50px;
+    }
+  }
